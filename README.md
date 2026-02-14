@@ -2,7 +2,7 @@
 
 ## 1. 研究動機 (Research Motivation)
 本專案旨在結合 Utility-based Data Mining 技術與金融時序數據，識別市場中顯著的流動性異常（Significant Liquidity Anomalies）與市場微結構特徵。
-本研究假設特定的市場微結構特徵（Market Microstructure Features）與流動性異常（Liquidity Anomalies），隱含了市場的潛在狀態轉移（Latent State Transitions）。
+本研究假設特定的市場微結構特徵（Market Microstructure Features）與市場流動性異常（Liquidity Anomalies），並非隨機雜訊，而是具備統計顯著性的高價值序列模式（High-Utility Sequential Patterns）。
 
 2. 擬定技術架構 (Proposed Framework)
 本計畫擬將量化交易中的「尋找高獲利型態」問題，轉化為資料探勘領域的**「高效能序列探勘 (High-Utility Sequential Pattern Mining)」**問題。初步規劃分為三個核心模組：
